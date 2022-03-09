@@ -1,0 +1,26 @@
+# cluster_slurm.yaml for GenerateFFTFeatures.snakefile
+# Robert Patton, rpatton@fredhutch.org (Ha Lab)
+# v1.0, adapted from Anna-Lisa Doebley's Griffin pipeline
+
+__default__:
+    partition: campus-new
+    time: "24:0:0"
+    mem: 4G
+    ncpus: 1
+    ntasks: 1
+    output: logs/cluster/{rule}.{wildcards.samples}.%A.out
+    JobName: "{rule}.{wildcards.samples}"
+
+calc_phasing:
+    partition: campus-new
+    mem: 4G
+    ncpus: 16 # number of cores to process each bed file
+    output: logs/cluster/{rule}.{wildcards.samples}.%A.out
+    JobName: "{rule}.{wildcards.samples}"
+
+combine_fms:
+    partition: campus-new
+    mem: 4G
+    ncpus: 1
+    output: logs/cluster/{rule}.%A.out
+    JobName: "{rule}"

@@ -1,0 +1,22 @@
+# config for GenerateFFTFeatures.snakefile
+# Robert Patton, rpatton@fredhutch.org (Ha Lab)
+# v1.0, adapted from Anna-Lisa Doebley's Griffin pipeline
+
+
+################
+# config files #
+################
+
+cluster_slurm: config/cluster_slurm.yaml # used to get info about available CPUs
+sites_bed: config/Ensembl104_LGB.bed # reference annotation (bed file with regions of interest)
+
+##############
+# parameters #
+##############
+
+results_dir: results # where your results will go (inside the snakemake folder)
+reference_genome: /fh/fast/ha_g/grp/reference/GRCh38/GRCh38.fa #use hg38
+plot_list: config/plot_genes.txt
+
+size_range: 15 500 # range of fragment lengths to be used for analysis
+map_quality: 20 # minimum mapping quality to keep a read

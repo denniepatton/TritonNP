@@ -1,0 +1,91 @@
+samples:
+  208-4_LuCaP:
+    bam: /fh/fast/ha_g/user/rpatton/LuCaP_data/bams/208-4_LuCaP.bam
+    GC_bias: /fh/fast/ha_g/user/rpatton/LuCaP_data/GC-Correction/results/repeat_masker.mapable.k50.Umap.hg38/GC_bias/208-4_LuCaP.GC_bias.txt
+  136_LuCaP:
+    bam: /fh/fast/ha_g/user/rpatton/LuCaP_data/bams/136_LuCaP.bam
+    GC_bias: /fh/fast/ha_g/user/rpatton/LuCaP_data/GC-Correction/results/repeat_masker.mapable.k50.Umap.hg38/GC_bias/136_LuCaP.GC_bias.txt
+  35CR_LuCaP:
+    bam: /fh/fast/ha_g/user/rpatton/LuCaP_data/bams/35CR_LuCaP.bam
+    GC_bias: /fh/fast/ha_g/user/rpatton/LuCaP_data/GC-Correction/results/repeat_masker.mapable.k50.Umap.hg38/GC_bias/35CR_LuCaP.GC_bias.txt
+  170-2_LuCaP:
+    bam: /fh/fast/ha_g/user/rpatton/LuCaP_data/bams/170-2_LuCaP.bam
+    GC_bias: /fh/fast/ha_g/user/rpatton/LuCaP_data/GC-Correction/results/repeat_masker.mapable.k50.Umap.hg38/GC_bias/170-2_LuCaP.GC_bias.txt
+  96_LuCaP:
+    bam: /fh/fast/ha_g/user/rpatton/LuCaP_data/bams/96_LuCaP.bam
+    GC_bias: /fh/fast/ha_g/user/rpatton/LuCaP_data/GC-Correction/results/repeat_masker.mapable.k50.Umap.hg38/GC_bias/96_LuCaP.GC_bias.txt
+  70CR_LuCaP:
+    bam: /fh/fast/ha_g/user/rpatton/LuCaP_data/bams/70CR_LuCaP.bam
+    GC_bias: /fh/fast/ha_g/user/rpatton/LuCaP_data/GC-Correction/results/repeat_masker.mapable.k50.Umap.hg38/GC_bias/70CR_LuCaP.GC_bias.txt
+  49_LuCaP:
+    bam: /fh/fast/ha_g/user/rpatton/LuCaP_data/bams/49_LuCaP.bam
+    GC_bias: /fh/fast/ha_g/user/rpatton/LuCaP_data/GC-Correction/results/repeat_masker.mapable.k50.Umap.hg38/GC_bias/49_LuCaP.GC_bias.txt
+  77CR_LuCaP:
+    bam: /fh/fast/ha_g/user/rpatton/LuCaP_data/bams/77CR_LuCaP.bam
+    GC_bias: /fh/fast/ha_g/user/rpatton/LuCaP_data/GC-Correction/results/repeat_masker.mapable.k50.Umap.hg38/GC_bias/77CR_LuCaP.GC_bias.txt
+  58_LuCaP:
+    bam: /fh/fast/ha_g/user/rpatton/LuCaP_data/bams/58_LuCaP.bam
+    GC_bias: /fh/fast/ha_g/user/rpatton/LuCaP_data/GC-Correction/results/repeat_masker.mapable.k50.Umap.hg38/GC_bias/58_LuCaP.GC_bias.txt
+  176CR_LuCaP:
+    bam: /fh/fast/ha_g/user/rpatton/LuCaP_data/bams/176CR_LuCaP.bam
+    GC_bias: /fh/fast/ha_g/user/rpatton/LuCaP_data/GC-Correction/results/repeat_masker.mapable.k50.Umap.hg38/GC_bias/176CR_LuCaP.GC_bias.txt
+  174-1_LuCaP:
+    bam: /fh/fast/ha_g/user/rpatton/LuCaP_data/bams/174-1_LuCaP.bam
+    GC_bias: /fh/fast/ha_g/user/rpatton/LuCaP_data/GC-Correction/results/repeat_masker.mapable.k50.Umap.hg38/GC_bias/174-1_LuCaP.GC_bias.txt
+  81_LuCaP:
+    bam: /fh/fast/ha_g/user/rpatton/LuCaP_data/bams/81_LuCaP.bam
+    GC_bias: /fh/fast/ha_g/user/rpatton/LuCaP_data/GC-Correction/results/repeat_masker.mapable.k50.Umap.hg38/GC_bias/81_LuCaP.GC_bias.txt
+  86-2CR_LuCaP:
+    bam: /fh/fast/ha_g/user/rpatton/LuCaP_data/bams/86-2CR_LuCaP.bam
+    GC_bias: /fh/fast/ha_g/user/rpatton/LuCaP_data/GC-Correction/results/repeat_masker.mapable.k50.Umap.hg38/GC_bias/86-2CR_LuCaP.GC_bias.txt
+  176_LuCaP:
+    bam: /fh/fast/ha_g/user/rpatton/LuCaP_data/bams/176_LuCaP.bam
+    GC_bias: /fh/fast/ha_g/user/rpatton/LuCaP_data/GC-Correction/results/repeat_masker.mapable.k50.Umap.hg38/GC_bias/176_LuCaP.GC_bias.txt
+  145-2_LuCaP:
+    bam: /fh/fast/ha_g/user/rpatton/LuCaP_data/bams/145-2_LuCaP.bam
+    GC_bias: /fh/fast/ha_g/user/rpatton/LuCaP_data/GC-Correction/results/repeat_masker.mapable.k50.Umap.hg38/GC_bias/145-2_LuCaP.GC_bias.txt
+  145-1_LuCaP:
+    bam: /fh/fast/ha_g/user/rpatton/LuCaP_data/bams/145-1_LuCaP.bam
+    GC_bias: /fh/fast/ha_g/user/rpatton/LuCaP_data/GC-Correction/results/repeat_masker.mapable.k50.Umap.hg38/GC_bias/145-1_LuCaP.GC_bias.txt
+  105CR_LuCaP:
+    bam: /fh/fast/ha_g/user/rpatton/LuCaP_data/bams/105CR_LuCaP.bam
+    GC_bias: /fh/fast/ha_g/user/rpatton/LuCaP_data/GC-Correction/results/repeat_masker.mapable.k50.Umap.hg38/GC_bias/105CR_LuCaP.GC_bias.txt
+  136CR_LuCaP:
+    bam: /fh/fast/ha_g/user/rpatton/LuCaP_data/bams/136CR_LuCaP.bam
+    GC_bias: /fh/fast/ha_g/user/rpatton/LuCaP_data/GC-Correction/results/repeat_masker.mapable.k50.Umap.hg38/GC_bias/136CR_LuCaP.GC_bias.txt
+  70_LuCaP:
+    bam: /fh/fast/ha_g/user/rpatton/LuCaP_data/bams/70_LuCaP.bam
+    GC_bias: /fh/fast/ha_g/user/rpatton/LuCaP_data/GC-Correction/results/repeat_masker.mapable.k50.Umap.hg38/GC_bias/70_LuCaP.GC_bias.txt
+  235-3_LuCaP:
+    bam: /fh/fast/ha_g/user/rpatton/LuCaP_data/bams/235-3_LuCaP.bam
+    GC_bias: /fh/fast/ha_g/user/rpatton/LuCaP_data/GC-Correction/results/repeat_masker.mapable.k50.Umap.hg38/GC_bias/235-3_LuCaP.GC_bias.txt
+  35_LuCaP:
+    bam: /fh/fast/ha_g/user/rpatton/LuCaP_data/bams/35_LuCaP.bam
+    GC_bias: /fh/fast/ha_g/user/rpatton/LuCaP_data/GC-Correction/results/repeat_masker.mapable.k50.Umap.hg38/GC_bias/35_LuCaP.GC_bias.txt
+  78_LuCaP:
+    bam: /fh/fast/ha_g/user/rpatton/LuCaP_data/bams/78_LuCaP.bam
+    GC_bias: /fh/fast/ha_g/user/rpatton/LuCaP_data/GC-Correction/results/repeat_masker.mapable.k50.Umap.hg38/GC_bias/78_LuCaP.GC_bias.txt
+  189-3_LuCaP:
+    bam: /fh/fast/ha_g/user/rpatton/LuCaP_data/bams/189-3_LuCaP.bam
+    GC_bias: /fh/fast/ha_g/user/rpatton/LuCaP_data/GC-Correction/results/repeat_masker.mapable.k50.Umap.hg38/GC_bias/189-3_LuCaP.GC_bias.txt
+  77_LuCaP:
+    bam: /fh/fast/ha_g/user/rpatton/LuCaP_data/bams/77_LuCaP.bam
+    GC_bias: /fh/fast/ha_g/user/rpatton/LuCaP_data/GC-Correction/results/repeat_masker.mapable.k50.Umap.hg38/GC_bias/77_LuCaP.GC_bias.txt
+  189-4_LuCaP:
+    bam: /fh/fast/ha_g/user/rpatton/LuCaP_data/bams/189-4_LuCaP.bam
+    GC_bias: /fh/fast/ha_g/user/rpatton/LuCaP_data/GC-Correction/results/repeat_masker.mapable.k50.Umap.hg38/GC_bias/189-4_LuCaP.GC_bias.txt
+  86-2_LuCaP:
+    bam: /fh/fast/ha_g/user/rpatton/LuCaP_data/bams/86-2_LuCaP.bam
+    GC_bias: /fh/fast/ha_g/user/rpatton/LuCaP_data/GC-Correction/results/repeat_masker.mapable.k50.Umap.hg38/GC_bias/86-2_LuCaP.GC_bias.txt
+  173-1_LuCaP:
+    bam: /fh/fast/ha_g/user/rpatton/LuCaP_data/bams/173-1_LuCaP.bam
+    GC_bias: /fh/fast/ha_g/user/rpatton/LuCaP_data/GC-Correction/results/repeat_masker.mapable.k50.Umap.hg38/GC_bias/173-1_LuCaP.GC_bias.txt
+  23-1_LuCaP:
+    bam: /fh/fast/ha_g/user/rpatton/LuCaP_data/bams/23-1_LuCaP.bam
+    GC_bias: /fh/fast/ha_g/user/rpatton/LuCaP_data/GC-Correction/results/repeat_masker.mapable.k50.Umap.hg38/GC_bias/23-1_LuCaP.GC_bias.txt
+  92_LuCaP:
+    bam: /fh/fast/ha_g/user/rpatton/LuCaP_data/bams/92_LuCaP.bam
+    GC_bias: /fh/fast/ha_g/user/rpatton/LuCaP_data/GC-Correction/results/repeat_masker.mapable.k50.Umap.hg38/GC_bias/92_LuCaP.GC_bias.txt
+  93_LuCaP:
+    bam: /fh/fast/ha_g/user/rpatton/LuCaP_data/bams/93_LuCaP.bam
+    GC_bias: /fh/fast/ha_g/user/rpatton/LuCaP_data/GC-Correction/results/repeat_masker.mapable.k50.Umap.hg38/GC_bias/93_LuCaP.GC_bias.txt
