@@ -1,4 +1,4 @@
-## Triton
+## TritonNP
 A tool for extracting region-based phasing metrics from cell-free DNA
 
 ## Description
