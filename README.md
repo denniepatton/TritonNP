@@ -3,7 +3,7 @@
 ## Description
 This workflow will run TritonNP on matched BAM and (optional) GC-correction files for regions of interest, generating nucleosome phasing metrics and region-level figures as outputs.
 
-# Contact
+## Contact
 Robert Patton
 Fred Hutchinson Cancer Center
 Contact: <rpatton@fredhutch.org>
