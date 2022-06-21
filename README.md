@@ -30,39 +30,39 @@ TritonNP optionally takes BAM-matched GC bias data produced by the Griffin workf
 found at https://github.com/GavinHaLab/Griffin (when used in the snakemake as opposed to a stand-alone tool GC bias is required).
 
 ## Sample list
-Sample names with paths to matching BAM and GC_bias files should be defined in a YAML file. See 'PhasingAnalysis/config/samples.yaml' for an example.
-This file may also be generated automatically based on a directory full of BAMs and a path to matched GC_bias files using GenerateGCSamples.py as a
+Sample names with paths to matching BAM and GC_bias files should be defined in a YAML file. See `PhasingAnalysis/config/samples.yaml` for an example.
+This file may also be generated automatically based on a directory full of BAMs and a path to matched GC_bias files using `GenerateGCSamples.py` as a
 stand-alone script.
-'''
+```
 samples:
   sample_1:
     bam: /path/to/sample_1.bam
     GC_bias: /path/to/sample_1.GC_bias.txt
-'''
+```
 
 ## Snakefiles
-1. 'GenerateFFTFeatures.snakefile'
+1. `GenerateFFTFeatures.snakefile`
 
 ### [config.yaml] (PhasingAnalysis/config/config.yaml)
-See below for details on [config.yaml] (PhasingAnalysis/config/config.yaml)
+See below for details on [config.yaml] (`PhasingAnalysis/config/config.yaml`)
 
 ## Run the analysis
 ### 1. Invoking the full snakemake workflow on a cluster using 'slurm'
-There is only one file in use for 'slurm':
-  'PhasingAnalysis/config/cluster_slurm.yaml' - This file contains memory, runtime, and number of cores for each task.
-To invoke the snakemake pipeline for 'qsub':
-'''
+There is only one file in use for `slurm`:
+  `PhasingAnalysis/config/cluster_slurm.yaml` - This file contains memory, runtime, and number of cores for each task.
+To invoke the snakemake pipeline for `qsub`:
+```
 snakemake -s GenerateFFTFeatures.snakefile --latency-wait 60 --keep-going --cluster-config config/cluster_slurm.yaml --cluster "sbatch -p {cluster.partition} --mem={cluster.mem} -t {cluster.time} -c {cluster.ncpus} -n {cluster.ntasks} -o {cluster.output} -J {cluster.JobName}" -j 40
-'''
+```
 
 ### 2. Using the tool as a stand-alone
 GenerateFFTFeatures.py may also be run as a stand-alone script to retrieve features of an individual BAM file, with or without GC_bias, on a local
-machine. Once dependencies are loaded run python GenerateFFTFeatures.py -h (help) to see all available options, which have more detailed explanations
+machine. Once dependencies are loaded run `python GenerateFFTFeatures.py -h` (help) to see all available options, which have more detailed explanations
 below in the configuration and settings section.
 
 ## Configuration and settings
-All (default) settings for the workflow are contained in [config.yaml] (PhasingAnalysis/config/config.yaml), while cluster settings and sample
-paths are found in PhasingAnalysis/config/cluster_slurm.yaml and PhasingAnalysis/config/samples.yaml, respectively.
+All (default) settings for the workflow are contained in [config.yaml] (`PhasingAnalysis/config/config.yaml`), while cluster settings and sample
+paths are found in `PhasingAnalysis/config/cluster_slurm.yaml` and `PhasingAnalysis/config/samples.yaml`, respectively.
 
 ### sites_bed
 Path to BED file containing regions of interest
