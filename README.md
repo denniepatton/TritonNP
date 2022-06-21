@@ -5,9 +5,13 @@ This workflow will run TritonNP on matched BAM and (optional) GC-correction file
 
 ## Contact
 Robert Patton
+
 Fred Hutchinson Cancer Center
+
 Contact: <rpatton@fredhutch.org>
+
 Date: June 21, 2022
+
 Website: https://github.com/denniepatton
 
 ## Requirements
