@@ -21,7 +21,7 @@ Website: https://github.com/denniepatton
     - Scipy 1.4.1
 
 ### Scripts
-  - GenerateFFTFeatures.py (primary tool for exctracting phasing features)
+  - GenerateFFTFeatures.py (primary tool for extracting phasing features)
   - CombinePhasingFM.py (combines output files into a single feature matrix)
   - GenerateGCSamples.py (optional; found in config/; used for combining sample info with GC-bias data from Griffin)
 
