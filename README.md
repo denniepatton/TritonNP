@@ -1,7 +1,7 @@
 # *Snakemake workflow for TritonNP*
 
 ## Description
-This workflow will run TritonNP on matched BAM and (optional) GC-correction files for regions of interest, generating nucleosome phasing metrics and region-level figures as outputs.
+From *Triton*, the Greek god of waves, and N(ucleosome) P(hasing). This workflow will run TritonNP on matched BAM and (optional) GC-correction files for regions of interest, generating nucleosome phasing metrics and region-level figures as outputs.
 
 ## Contact
 Robert Patton
