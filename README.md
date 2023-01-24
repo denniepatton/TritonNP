@@ -3,6 +3,9 @@
 ## Description
 From *Triton*, the Greek god of waves, and N(ucleosome) P(hasing). This workflow will run TritonNP on matched BAM and (optional) GC-correction files for regions of interest, generating nucleosome phasing metrics and region-level figures as outputs.
 
+This tool has been updated! For the newest version, which now includes fragmentomic analyses, check out: https://github.com/GavinHaLab/Triton  
+However, f you are looking to reproduce LuCaP PDX phasing analyses from https://doi.org/10.1158/2159-8290.CD-22-0692 you are in the right place.
+
 ## Contact
 Robert Patton
 
